@@ -36,7 +36,6 @@ public class CommonMethods {
         }
     }
 
-
     public  static void sendText(String text, WebElement element){
         element.clear();
         element.sendKeys(text);
