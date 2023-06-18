@@ -22,7 +22,6 @@ public class JavaScriptExecutorDemo2 extends CommonMethods {
         WebElement select=driver.findElement(By.xpath("//select[@id='searchDropdownBox']"));
         Thread.sleep(3000);
 
-
         js.executeScript("arguments[0].click();", select);
     }
 }
